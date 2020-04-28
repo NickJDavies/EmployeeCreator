@@ -1,5 +1,5 @@
 {
-  "name": "homeworkwk10",
+  "name": "employeecreator",
   "version": "1.0.0",
   "description": "hw",
   "main": "app.js",
@@ -10,6 +10,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Nicholas Davies",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickJDavies/EmployeeCreator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickJDavies/EmployeeCreator/issues"
+  },
+  "homepage": "https://github.com/NickJDavies/EmployeeCreator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "path": "^0.12.7"
+  }
 }
